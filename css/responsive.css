@@ -1,0 +1,115 @@
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+
+    /* sobre mi*/
+    .me{
+        padding:0;
+        width: 100%;
+    }
+    .me_div{
+        text-align: center;
+    }
+    
+    /*title*/
+    
+    /*Skills*/
+    .skills{
+        flex-direction: column;
+    }
+    /*Formación Académica*/
+    .experience_line{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .experience_box{
+        text-align: center;
+    }
+    
+    /*Experiencia Profesional*/
+    
+    .academy_box{
+        flex-direction: column;
+    }
+    .academy_container{
+        flex-direction: column;
+    }
+    
+    }
+    
+    /*Mobile*/
+    @media (max-width: 425px) {
+    
+    /*Menu*/
+    .menu{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .menu_list{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*Titulo*/
+    .hero{
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_profile{
+        display: none;
+    }
+
+    .hero_description{
+        text-align: center;
+    }
+    /*Sección sobre mi*/
+    .me{
+        padding: 0%;
+    }
+    .me_div{
+        text-align: center;
+    }
+    
+    /*Skills*/
+    .skills{
+        flex-direction: column;
+    }
+    
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+    .experience_line{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .experience_box{
+        text-align: center;
+    }
+    
+    /*Experiencia Profesional*/
+    
+    .academy_box{
+        flex-direction: column;
+    }
+
+    .academy_container{
+        flex-direction: column;
+    }
+     /*Contacto*/
+
+     .contactof_img{
+        display: none;
+     }
+
+     .contactof_button{
+        max-width: 100%;
+        
+     }
+    
+    /*Footer*/
+    
+    }
