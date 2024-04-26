@@ -1,7 +1,6 @@
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
 
     /* sobre mi*/
     .me{
@@ -12,8 +11,7 @@
         text-align: center;
     }
     
-    /*title*/
-    
+   
     /*Skills*/
     .skills{
         flex-direction: column;
@@ -26,6 +24,9 @@
     
     .experience_box{
         text-align: center;
+    }
+    .experience_img{
+    
     }
     
     /*Experiencia Profesional*/
@@ -41,7 +42,6 @@
     
     /*Mobile*/
     @media (max-width: 425px) {
-    
     /*Menu*/
     .menu{
         display: flex;
@@ -82,18 +82,27 @@
      
     /*Formación Académica*/
     .experience_line{
-        display: flex;
         flex-direction: column;
+        
     }
     
     .experience_box{
         text-align: center;
+        padding: 0%;
+       
+    }
+
+    .experience_back{
+        background-color: var(--color1);
+        padding: 0%;
+        
     }
     
     /*Experiencia Profesional*/
     
     .academy_box{
         flex-direction: column;
+        text-align: center;
     }
 
     .academy_container{
