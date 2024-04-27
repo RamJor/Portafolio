@@ -85,6 +85,9 @@
         padding: 0%;
         
     }
+    .experience_box h2{
+        font-size: 30px;
+    }
     
     .experience_box{
         text-align: center;
