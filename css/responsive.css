@@ -25,9 +25,6 @@
     .experience_box{
         text-align: center;
     }
-    .experience_img{
-    
-    }
     
     /*Experiencia Profesional*/
     
@@ -83,6 +80,7 @@
     /*Formación Académica*/
     .experience_line{
         flex-direction: column;
+        padding: 0%;
         
     }
     
@@ -107,7 +105,10 @@
 
     .academy_container{
         flex-direction: column;
+        padding: 0%;
     }
+
+    
      /*Contacto*/
 
      .contactof_img{

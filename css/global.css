@@ -274,6 +274,7 @@ h1, h2, h3, h4{
 .academy_item_img img {
     width: 400px;
     height: 280px;
+    object-position: center;
 }
 
 .academy_title{
