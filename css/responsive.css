@@ -43,7 +43,8 @@
     .menu{
         display: flex;
         flex-direction: column;
-        padding: 2rem;
+        margin-bottom: 2rem;
+        padding: 0%;
     }
     .menu_list{
         flex-direction: column;
@@ -54,6 +55,7 @@
     .hero{
         justify-content: center;
         align-items: center;
+        padding: 0%;
     }
     .hero_profile{
         display: none;
